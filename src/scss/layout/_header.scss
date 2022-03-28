@@ -112,10 +112,15 @@
 .arrow {
     opacity: 0;
     position: absolute;
-    left: 50%;
+    left: 48%;
     top: 90%;
     transform-origin: 90% 90%;
     transform: translate3d(-90%, -90%, 0);
+}
+@media(min-width:768px){
+    .arrow{
+        left: 50%;
+    }
 }
 
 .arrow-first {
